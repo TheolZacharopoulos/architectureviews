@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+This blog is about...

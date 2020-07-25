@@ -19,20 +19,4 @@ gem "github-pages", "~> 206", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  # gem 'jekyll-analytics'
 end
-
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", "~> 1.2"
-  gem "tzinfo-data"
-end
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
-# jekyll_analytics:
-#   GoogleAnalytics:              # Add, if you want to track with Google Analytics
-#     id: UA-168909018-1          # Required - replace with your tracking id
-#     anonymizeIp: false          # Optional - Default: false - set to true for anonymized tracking
